@@ -49,6 +49,7 @@ const Nav2 = () => {
                             )}
                         </div>
                     ))}
+                <button className={styles.nav2__writeBtn}>구인글 작성</button>
             </div>
         </div>
     );

@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    position: absolute;
 }
 
 .nav2__contents{
@@ -24,7 +25,18 @@
 .nav2__contents:hover .nav2__button{
     color: var(--main-color2)
 }
-
+.nav2__writeBtn{
+    /*구인글 작성 버튼*/
+    width: 120px;
+    height: 35px;
+    background-color: var(--sub-color);
+    color: var(--main-color2);
+    font-family: 'PretendardB';
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
 
 .nav2__button{
     display: inline-block;
