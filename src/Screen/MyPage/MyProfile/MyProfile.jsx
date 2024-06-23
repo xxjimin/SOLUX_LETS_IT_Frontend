@@ -37,9 +37,7 @@ const MyProfile = ()=>{
         <div className={styles.myProfile__wrap}>
 
             {/*사이드 네비게이터 */}
-            <div className={styles.myProfile__sideNav}>
-                <SideNav content={sidenavCont}/>
-            </div>
+            <SideNav content={sidenavCont}/>
 
                 {/*버튼 + 프로필 */}
                 <div className={styles.myProfile__contWrap}>

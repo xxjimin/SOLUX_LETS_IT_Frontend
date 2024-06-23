@@ -15,9 +15,7 @@ const MyPortfolio = ()=>{
         <div className={styles.myPortfolio__wrap}>
 
             {/*사이드 네비게이터 */}
-            <div className={styles.myPortfolio__sideNav}>
-                <SideNav content={sidenavCont}/>
-            </div>
+            <SideNav content={sidenavCont}/>
 
             {/*지금 작성할 수 있는 포트폴리오 + 포트폴리오 열람 */}
             <div className={styles.myPortfolio__contentWrap}>
@@ -30,10 +28,26 @@ const MyPortfolio = ()=>{
                     </div>
                     {/*작성할 수 있는 포트폴리오 나열 */}
                     <div className={styles.myPortfolio__cont}>
-                        <PortfolioBtn button1Text='작성하기' button2Text='삭제'/>
-                        <PortfolioBtn button1Text='작성하기' button2Text='삭제'/>
-                        <PortfolioBtn button1Text='작성하기' button2Text='삭제'/>
-                        <PortfolioBtn button1Text='작성하기' button2Text='삭제'/>
+                        <PortfolioBtn 
+                        button1Text='작성하기' 
+                        button2Text='삭제'
+                        color='var(--text-color1)'
+                        bgc='var(--line-color)'/>
+                        <PortfolioBtn 
+                        button1Text='작성하기' 
+                        button2Text='삭제'
+                        color='var(--text-color1)'
+                        bgc='var(--line-color)'/>
+                        <PortfolioBtn
+                         button1Text='작성하기' 
+                         button2Text='삭제'
+                         color='var(--text-color1)'
+                        bgc='var(--line-color)'/>
+                        <PortfolioBtn 
+                        button1Text='작성하기' 
+                        button2Text='삭제'
+                        color='var(--text-color1)'
+                        bgc='var(--line-color)'/>
                     </div>
                 </div>
 
