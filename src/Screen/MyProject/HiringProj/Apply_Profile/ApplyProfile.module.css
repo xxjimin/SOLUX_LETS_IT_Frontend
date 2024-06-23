@@ -1,0 +1,14 @@
+.ApplyProfile__wrap{
+    display: flex;
+}
+.ApplyProfile__contWrap{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+.ApplyProfile__buttonWrap{
+    display: flex;
+    gap: 10px;
+}
