@@ -12,7 +12,7 @@ const Button = ({
     fontSize = '16px'})=>{
     
         return(
-        <div style={{
+        <button style={{
             width: width,
             height: height,
             backgroundColor: bgc,
@@ -26,7 +26,7 @@ const Button = ({
             justifyContent: 'center',
             alignItems: 'center'
 
-        }}>{text}</div>
+        }}>{text}</button>
     )
 }
 
