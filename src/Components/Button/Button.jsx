@@ -4,6 +4,7 @@ const Button = ({
     height = '40px',
     bgc = 'var(--main-color2)',
     borderRadius='4px',
+    border='none',
 
     //button에  표시할 텍스트, 텍스트 색깔, 폰트 설정
     text='add text',
@@ -20,6 +21,7 @@ const Button = ({
             color: color,
             fontFamily: fontFamily,
             fontSize : fontSize,
+            border: border,
 
             textAlign: 'center',
             display: 'flex',

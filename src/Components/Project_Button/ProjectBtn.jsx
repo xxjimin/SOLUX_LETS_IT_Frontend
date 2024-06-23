@@ -8,7 +8,12 @@ const project = {
 }
 const ProjectBtn = ({
     //포트폴리오 작성, 삭제 버튼을 보여줄 것인가
-    buttonShow = true
+    buttonShow = true,
+    button1Text = 'add text',
+    button2Text = 'add text',
+    border =  'none',
+    bgc = 'none',
+    color='#fff'
 })=>{
     return(
         <div className={styles.PortfolioBtn__box}>
@@ -27,12 +32,13 @@ const ProjectBtn = ({
             {/*포트폴리오 작성,삭제 버튼 */}
             {buttonShow? (
                 <div className={styles.PortfolioBtn__button}>
-                <Button text='작성하기'/>
+                <Button text={button1Text}/>
                 <Button 
-                color='var(--text-color2)' 
-                bgc='var(--line-color)' 
+                color={color}
+                bgc={bgc}
                 width='120px'
-                text='삭제'/>
+                border={border}
+                text={button2Text}/>
                 </div>
             ): null
                 
