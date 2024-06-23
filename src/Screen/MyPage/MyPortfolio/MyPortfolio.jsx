@@ -30,10 +30,10 @@ const MyPortfolio = ()=>{
                     </div>
                     {/*작성할 수 있는 포트폴리오 나열 */}
                     <div className={styles.myPortfolio__cont}>
-                        <PortfolioBtn />
-                        <PortfolioBtn />
-                        <PortfolioBtn />
-                        <PortfolioBtn />
+                        <PortfolioBtn button1Text='작성하기' button2Text='삭제'/>
+                        <PortfolioBtn button1Text='작성하기' button2Text='삭제'/>
+                        <PortfolioBtn button1Text='작성하기' button2Text='삭제'/>
+                        <PortfolioBtn button1Text='작성하기' button2Text='삭제'/>
                     </div>
                 </div>
 
