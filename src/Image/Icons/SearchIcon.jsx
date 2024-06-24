@@ -1,10 +1,13 @@
-const SearchIcon = ({ width = '20px', height = '20px' }) => (
+const SearchIcon = ({ 
+  width = '20px',
+   height = '20px' ,
+  bgc='var(--main-color2)'}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
     strokeWidth={2}
-    stroke="var(--main-color2)"
+    stroke={bgc}
     className="size-6"
     width={width}
     height={height}
