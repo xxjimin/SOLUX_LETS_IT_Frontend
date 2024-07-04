@@ -30,24 +30,16 @@ const MyPortfolio = ()=>{
                     <div className={styles.myPortfolio__cont}>
                         <PortfolioBtn 
                         button1Text='작성하기' 
-                        button2Text='삭제'
-                        color='var(--text-color1)'
-                        bgc='var(--line-color)'/>
+                        button2Text='삭제' />
                         <PortfolioBtn 
                         button1Text='작성하기' 
-                        button2Text='삭제'
-                        color='var(--text-color1)'
-                        bgc='var(--line-color)'/>
+                        button2Text='삭제' />
                         <PortfolioBtn
                          button1Text='작성하기' 
-                         button2Text='삭제'
-                         color='var(--text-color1)'
-                        bgc='var(--line-color)'/>
+                         button2Text='삭제' />
                         <PortfolioBtn 
                         button1Text='작성하기' 
-                        button2Text='삭제'
-                        color='var(--text-color1)'
-                        bgc='var(--line-color)'/>
+                        button2Text='삭제' />
                     </div>
                 </div>
 

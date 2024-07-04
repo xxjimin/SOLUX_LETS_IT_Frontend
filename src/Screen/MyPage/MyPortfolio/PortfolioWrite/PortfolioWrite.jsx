@@ -76,8 +76,8 @@ const PortfolioWrite = ()=>{
 
                         {/*폼 제출 버튼*/}
                         <div className={styles.portfolioWrite__form__btnWrap}>
-                            <Button width='120px' bgc='var(--line-color)' text='삭제'/>
-                            <Button width='120px' text='저장'/>
+                            <Button text='삭제' type='SEC_120x40'/>
+                            <Button text='저장' type='MC2_120x40'/>
                         </div>
 
                     </form>
