@@ -4,8 +4,8 @@ import RouteName from '../../../../Components/RouteName/RouteName'
 import SideNav from '../../../../Components/SideNav/SideNav'
 import styles from './ApplyProfile.module.css'
 
-const route = ['내 프로젝트', '모집중인 프로젝트','신청자 프로필']
-const sidenavCont = ['구인중인 프로젝트','진행중인 프로젝트','스크랩한 프로젝트'] 
+const route = ['내 프로젝트', '신청/구인 프로젝트','신청자 프로필']
+const sidenavCont = ['신청/구인 프로젝트','참여 프로젝트','스크랩']
 const user={
     name : '김코더',
     age : '20대 초반',
@@ -35,11 +35,8 @@ const ApplyProfile = ()=>{
                 <div className={styles.ApplyProfile__contWrap}>
                 <Profile user={user}/>
                     <div className={styles.ApplyProfile__buttonWrap}>
+                    <Button text='거절' type='SEC_150x40'></Button>
                     <Button text='수락'></Button>
-                    <Button 
-                    bgc='var(--line-color)'
-                    color='var(--text-color2)'
-                    text='거절'></Button>
                     </div>
                 </div>
             </div>

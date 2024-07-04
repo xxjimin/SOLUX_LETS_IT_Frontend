@@ -1,10 +1,10 @@
 import ProjectBtn from '../../../Components/Project_Button/ProjectBtn'
 import RouteName from '../../../Components/RouteName/RouteName'
 import SideNav from '../../../Components/SideNav/SideNav'
-import styles from './OngoingProj.module.css'
+import styles from './AttendProj.module.css'
 
-const route = ['내 프로젝트', '진행중인 프로젝트']
-const sidenavCont = ['구인중인 프로젝트','진행중인 프로젝트','스크랩한 프로젝트']
+const route = ['내 프로젝트', '참여 프로젝트']
+const sidenavCont = ['신청/구인 프로젝트','참여 프로젝트','스크랩']
 const OngoingProj = ()=>{
     return(
         <div className={styles.ongoinProj}>
