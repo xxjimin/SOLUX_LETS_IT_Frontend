@@ -4,8 +4,8 @@ import RouteName from '../../../../Components/RouteName/RouteName'
 import SideNav from '../../../../Components/SideNav/SideNav'
 import styles from './ApplyProfile.module.css'
 
-const route = ['내 프로젝트', '신청/구인 프로젝트','신청자 프로필']
-const sidenavCont = ['신청/구인 프로젝트','참여 프로젝트','스크랩']
+const route = ['내 프로젝트', '구인/신청 프로젝트','신청자 프로필']
+const sidenavCont = ['구인/신청 프로젝트','참여 프로젝트','스크랩']
 const user={
     name : '김코더',
     age : '20대 초반',
