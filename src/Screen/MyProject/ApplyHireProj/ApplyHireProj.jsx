@@ -12,7 +12,7 @@ const ApplyHireProj = ()=>{
         <div className={styles.ApplyHireProj}>
             <RouteName route={route} />
 
-                {/*사이드 네비게이터 + 구인중인 프로젝트 */}
+                {/*사이드 네비게이터 + 컨텐츠 */}
                 <div className={styles.ApplyHireProj__wrap}>
 
                     {/*사이드 네비게이터 */}
@@ -20,22 +20,30 @@ const ApplyHireProj = ()=>{
                         <SideNav content={sidenavCont}/>
                     </div>
 
-                    {/*구인중인 프로젝트 + 신청자 목록*/}
+                    {/*구인 중인 프로젝트 + 신청한 프로젝트 */}
+                    <div className={styles.ApplyHireProj__content}>
+
+                    {/*구인중인 프로젝트*/}
                     <div className={styles.HireProj__contWrap}>
                             {/*제목 */}
-                            <div className={styles.HireProj__title}>
+                            <div className={styles.ApplyHireProj__title}>
                                 구인중인 프로젝트
                             </div>
                             {/*프로젝트 구인글 + 버튼 + 신청자 목록 (컨텐츠) */}
                             <div className={styles.HireProj__content}>
 
-                                {/*(대체 예정)프로젝트 컴포넌트 + 모집 마감/팀원/글삭제 버튼*/}
+                                {/*(대체 예정)프로젝트 컴포넌트 + 모집 마감/팀원/글삭제 버튼 + 팀원*/}
                                 <div className={styles.HireProj__ProjectSetting}>
                                     <div className='Project_Component' style={{width:'315px', height:'240px',backgroundColor:'var(--select-color)'}} />
                                     <div className={styles.HireProj__buttonWrap}>
-                                    <Button text='모집 마감'/>
-                                    <Button text='팀원' type='SEC_70x40'/>
-                                    <Button  text='글 삭제' type='NONE__TEXT-TC2'/>
+                                        <Button text='모집 마감'/>
+                                        <Button text='팀원' type='SEC_70x40'/>
+                                        <Button  text='글 삭제' type='NONE__TEXT-TC2'/>
+                                    </div>
+
+                                    {/*프로젝트 팀원 */}
+                                    <div className={styles.HireProj__teamMate}>
+                                    
                                     </div>
                                 </div>
 
@@ -44,14 +52,28 @@ const ApplyHireProj = ()=>{
                                     <ApplicantBtn />
                                     <ApplicantBtn />
                                     <ApplicantBtn />
-                                    <ApplicantBtn />
-                                    <ApplicantBtn />
                                 </div>
 
-                                hi
-                            </div>
 
+                            </div>
                     </div>
+
+
+                    <div className={styles.ApplyProj__contWrap}>
+                            <div className={styles.ApplyHireProj__title}>
+                                신청한 프로젝트
+                            </div>
+                            {/*프로젝트 구인글 + 버튼 + 신청자 목록 (컨텐츠) */}
+                            <div className={styles.ApplyProj__content}>
+                                <div className='Project_Component' style={{width:'315px', height:'240px',backgroundColor:'var(--select-color)'}} />
+                                <div className='Project_Component' style={{width:'315px', height:'240px',backgroundColor:'var(--select-color)'}} />
+                                <div className='Project_Component' style={{width:'315px', height:'240px',backgroundColor:'var(--select-color)'}} />
+                                <div className='Project_Component' style={{width:'315px', height:'240px',backgroundColor:'var(--select-color)'}} />
+                                <div className='Project_Component' style={{width:'315px', height:'240px',backgroundColor:'var(--select-color)'}} />
+                            </div>
+                    </div>
+                    </div>
+
                 </div>
         </div>
     )

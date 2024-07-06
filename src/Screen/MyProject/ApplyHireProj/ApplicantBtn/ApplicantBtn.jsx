@@ -12,7 +12,7 @@ const ApplicantBtn= ()=>{
                 {/*이름 + 지원서 보기 버튼 */}
                 <div className={styles.Applicant__ApplicationBtn}>
                 김코더 FE<span>|</span> 
-                <Button text='지원서 보기' type='NONE__TEXT-MC2'/>
+                <Button text='지원서 보기' type='NONE__TEXT-MC2-16'/>
                 </div>
 
                 {/*수락, 거절 버튼 */}

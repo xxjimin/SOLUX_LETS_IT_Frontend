@@ -1,13 +1,9 @@
 .ApplyHireProj__wrap{
     display: flex;
-}
-.ApplyHireProj__contWrap{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+    margin-bottom: 70px;
 }
 
-.HireProj__title{
+.ApplyHireProj__title{
     font-family: 'pretendardB';
     font-size: 26px;
     height: 50px;
@@ -16,12 +12,21 @@
     border-bottom: 1px solid var(--line-color)
 }
 
+.ApplyHireProj__content{
+    display: flex;
+    flex-direction : column;
+    gap: 70px;
+}
+
 /*컨텐츠 전체 wrap*/
 .HireProj__content{
     display: grid;
     grid-template-columns: 0.8fr 0.5fr;
-    grid-template-rows:  1fr 1fr;
     justify-content: center;
+}
+.HireProj__contWrap{
+    display: flex;
+    flex-direction: column;
 }
 
 /*프로젝트 컴포넌트 + 버튼*/
@@ -40,5 +45,25 @@
 .HireProj__Applicant{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill,110px);
     gap: 25px;
+}
+
+/*팀원 목록*/
+.HireProj__teamMate{
+    width: 315px;
+    height: 100px;
+    background-color: #797979;
+}
+
+.ApplyProj__contWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ApplyProj__content{
+    width: 1120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
