@@ -34,10 +34,41 @@ const ApplyProfile = ()=>{
 
                 <div className={styles.ApplyProfile__contWrap}>
                 <Profile user={user}/>
-                    <div className={styles.ApplyProfile__buttonWrap}>
-                    <Button text='거절' type='SEC_150x40'></Button>
-                    <Button text='수락'></Button>
+
+                <div className={styles.ApplyProfile__applyDetail}>
+
+                    <div className={styles.ApplyProfile__stackField}>
+                    {/*선호 스택 */}
+                        <div className='stack'>
+                            <div className={styles.ApplyProfile__applyDetail_title}>선호 스택</div>
+                            <div className={styles.ApplyProfile__detail_1}>
+                            </div>
+                        </div>
+
+                        {/*희망 분야 */}
+                        <div className='field'>
+                            <div className={styles.ApplyProfile__applyDetail_title}>희망 분야</div>
+                            <div className={styles.ApplyProfile__detail_1}>
+                            </div>
+                        </div>
                     </div>
+                    {/*전달 사항 */}
+                    <div className='message'>
+                        <div className={styles.ApplyProfile__applyDetail_title}>전달 사항</div>
+                        <div className={styles.ApplyProfile__detail_2}>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div className={styles.ApplyProfile__buttonWrap}>
+                <Button text='거절' type='SEC_150x40'></Button>
+                <Button text='수락'></Button>
+                </div>
                 </div>
             </div>
         </div>
