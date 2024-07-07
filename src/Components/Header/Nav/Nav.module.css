@@ -46,6 +46,7 @@
 }
 .nav__searchbar_input{
     border: none;
+    height: 30px;
     flex: 1;
 }
 .nav__searchbar_input:focus{
