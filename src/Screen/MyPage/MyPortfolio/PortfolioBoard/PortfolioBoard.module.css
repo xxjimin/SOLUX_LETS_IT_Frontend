@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 70px;
 }
 /*포트폴리오명*/
 .PorfolioBoard__portfolioTitle{
